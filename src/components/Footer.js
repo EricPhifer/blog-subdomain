@@ -9,7 +9,7 @@ const Footer = class extends React.Component {
       <footer className="footer has-background-black has-text-white-ter">
         <div className="content has-text-centered has-background-black has-text-white-ter">
           <div className="has-background-black has-text-white-ter">
-            <div style={{ maxWidth: '80vw', margin: '0 auto' }} className="columns">
+            <div style={{ margin: '0 auto' }} className="columns">
               <div className="column is-4">
                 <section className="menu">
                   <ul className="menu-list">
@@ -23,7 +23,7 @@ const Footer = class extends React.Component {
                     </li>
                     <li id="privacy">
                       <div />
-                      <a href="https://ericphifer.com/privacypolicy" target="_blank" rel="noreferrer">Privacy Policy</a> |{' '}
+                      <a href="https://ericphifer.com/privacypolicy" target="_blank" rel="noreferrer">Privacy Policy</a>|
                       <a href="https://ericphifer.com/termsconditions" target="_blank" rel="noreferrer">Terms &amp; Conditions</a>
                     </li>
                   </ul>
