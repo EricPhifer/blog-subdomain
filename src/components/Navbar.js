@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import logo from '../img/logo.png'
+import mobilelogo from '../img/favicon.png'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -83,9 +84,9 @@ const Navbar = class extends React.Component {
                 <Link to="/contact">Contact</Link>
               </li>
               <li className="mobileLink">
-                <Link to="/">
-                  <div id="mobileLogo" />
-                </Link>
+                <a href="https://ericphifer.com" rel="noreferrer">
+                  <img src={mobilelogo} alt="Mobile Logo" style={{ width: '9rem', height: '7rem' }} />
+                </a>
               </li>
             </ul>
           </div>
