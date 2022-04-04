@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
-title: Eric Phifer
+title: Developers Blog
 image: /img/home-jumbotron.jpg
-heading: Eric Phifer
-subheading: Hello! I'm a Full Stack Developer with a passion for design. This blog is to benefit those who seek to a learn a bit about what goes into a website.
+heading: Developers Blog
+subheading: We aim to benefit those who seek to a learn a bit about what goes into building, designing and launching a website.
 ---
