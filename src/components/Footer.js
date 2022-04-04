@@ -43,7 +43,7 @@ const Footer = class extends React.Component {
               <div className="column is-4 social">
                 <a title="codepen" target="_blank" rel="noreferrer" href="https://codepen.io/Eric-Phifer">
                   <img
-                    src={codepen-brands}
+                    src={codepen}
                     alt="CodePen"
                     style={{ width: '1em', height: '1em' }}
                   />
