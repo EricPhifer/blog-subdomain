@@ -47,7 +47,7 @@ const Navbar = class extends React.Component {
             </li>
             <li className="logo" className="navLink">
               <a href="https://ericphifer.com" rel="noreferrer">
-                <img src={logo} alt="Logo" style={{ width: '9rem', height: '7rem' }} />
+                <img src={logo} alt="Logo" style={{ width: '7rem', height: '6rem' }} />
               </a>
             </li>
             <li className="navLink">
