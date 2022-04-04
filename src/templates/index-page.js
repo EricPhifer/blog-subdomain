@@ -54,9 +54,9 @@ export const IndexPageTemplate = ({
               <div className="content">
                
                 <div >
-                  <h4 className="recent-posts">
+                  <h3 className="recent-posts">
                     Recent Blog Posts
-                  </h4>
+                  </h3>
 
                   <BlogRoll />
                 </div>
