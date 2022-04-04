@@ -1,6 +1,6 @@
 ---
 templateKey: 'blog-post'
-title: 'Again a stupid heading, God help me'
+title: 'Again a stupid heading'
 date: 2017-10-05T15:04:10.000Z
 featuredpost: true
 featuredimage: /img/image6.png
