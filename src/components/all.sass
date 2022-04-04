@@ -1,9 +1,5 @@
 @import "~bulma/sass/utilities/initial-variables"
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Poiret+One&display=swap')
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap')
-
 @import "~bulma"
 
 // Config vars
@@ -12,8 +8,8 @@ $kaldi-red-invert: #fff
 
 $primary: $kaldi-red
 // $primary-invert: $kaldi-red-invert
-// $body-color: #333
-$black: #2b2523
+$body-color: #2e2e2e
+$black: #2e2e2e
 
 //========================================
 // ------------- Utilities ---------------
@@ -188,8 +184,9 @@ html, body
     z-index: 1
     transform-origin: 5px 0
     background: #fff
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
-      background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1)
+    transition: background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1)
+    transition: opacity 0.55s ease
   #menuToggle span:first-child
     transform-origin: 0% 0%
   #menuToggle span:nth-last-child(2)
@@ -507,7 +504,7 @@ $menu-label-color: $white-ter
   .blog-list-item .featured-thumbnail
     flex-basis: 50%
   .grid-3
-    grid-template-columns: repeat(2, 1fr) !important
+    grid-template-columns: repeat(2, minmax(auto, 1fr)) !important
   .blogContainer
     font-size: 0.85em !important
   .blogPostContentsContainer
