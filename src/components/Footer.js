@@ -12,7 +12,7 @@ const Footer = class extends React.Component {
             <div style={{ margin: '0 auto' }} className="columns">
               <div className="column is-4">
                 <section className="menu">
-                  <ul className="menu-list">
+                  <ul className="menu-list" style="margin: 0">
                     <li id="copyright">
                         &copy; Eric Phifer LLC {new Date().getFullYear()}
                     </li>
@@ -22,7 +22,6 @@ const Footer = class extends React.Component {
                       </a>
                     </li>
                     <li id="privacy">
-                      <div />
                       <a href="https://ericphifer.com/privacypolicy" target="_blank" rel="noreferrer">Privacy Policy</a>|
                       <a href="https://ericphifer.com/termsconditions" target="_blank" rel="noreferrer">Terms &amp; Conditions</a>
                     </li>

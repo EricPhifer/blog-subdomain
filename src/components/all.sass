@@ -238,12 +238,9 @@ html, body
   flex-wrap: wrap
   justify-content: left
   align-items: center
-  background: #fff
-  color: #000
   font-size: 0.85rem
   li
-    padding: 0 2rem 1rem 0
-    margin-bottom: 1.5rem
+    padding: 0 0.5rem 0.5rem 0
     margin-top: 0
 h1
   font-family: Papyrus, Arial, Helvetica, sans-serif
@@ -320,45 +317,6 @@ h1
 
 footer.footer
   padding: 2rem 0rem 0rem
-  position: relative
-  bottom: 0
-  width: 100%
-  margin: 0 auto
-  text-align: center
-  color: #fff
-  --columns: 1
-  ul
-    display: grid
-    grid-template-areas:
-      '. . . . . copyright copyright . . . . .'
-      '. . . . . dev dev . . . . .'
-      '. . . . . priv priv . . . . .'
-    text-align: center
-    font-size: 1.4rem
-    list-style-type: none
-    padding: 0
-  a
-    text-decoration: none
-    color: #fff
-    opacity: 0.5
-  a:hover
-    opacity: 1
-
-  #copyright
-    grid-area: copyright
-
-  #developer
-    grid-area: dev
-
-  #privacy
-    grid-area: priv
-
-  @media (min-width: 325px) and (max-width: 800px)
-    ul
-      font-size: 1rem
-      margin: 0
-      margin-top: 2rem
-      padding: 0
 
 //========================================
 //------------ Menu overrides-------------
@@ -376,11 +334,6 @@ $menu-label-color: $white-ter
   display: flex
   justify-content: space-between
   align-items: center
-
-.logo h1
-  margin-right: 15px
-  font-weight: 700 !important
-  color: $black
 
 .menu-label
   font-size: 1em !important
