@@ -32,16 +32,16 @@ export const BlogPostTemplate = ({
           <div className="flex flex-col-around"
               >
                 
-            <img src={PostImage} className="blogPostFeatureImage" style={{width:'100vw'}} alt="NOTE: The FeaturedImage and publishedDate have been disabled in preview mode as their implementation will change in the upcoming builds and are in unfinished state as of now."></img>
+            <img src={PostImage} className="blogPostFeatureImage" style={{width:'100vw'}} alt="Blog Post Image"></img>
 
             <div className="blogContainer" >
             <h1
-                style={{fontFamily:'Poppins, sans-serif', color:'#000', fontWeight:'700', fontSize: '2.8rem' }}>
+                style={{ fontWeight:'700', fontSize: '2.8rem' }}>
               {title}
             </h1>
             <p className="blogPostDescription">{description}</p>
             
-            <p className="blogPostedDetails">Posted by <span className="blogPostAuthor">Simar Mann Singh</span> on <span className="blogPostDate">{date}</span>  </p>
+            <p className="blogPostedDetails">Posted by <span className="blogPostAuthor">Eric Phifer</span> on <span className="blogPostDate">{date}</span>  </p>
 
             <div className="line"></div>
 
