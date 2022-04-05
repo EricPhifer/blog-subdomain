@@ -22,7 +22,7 @@ const Footer = class extends React.Component {
                     </li>
                     <li>
                       <span>
-                        <a href="https://ericphifer.com/privacypolicy" target="_blank" rel="noreferrer">Privacy Policy</a> | 
+                        <a href="https://ericphifer.com/privacypolicy" target="_blank" rel="noreferrer">Privacy Policy</a> |  
                         <a href="https://ericphifer.com/termsconditions" target="_blank" rel="noreferrer">Terms &amp; Conditions</a>
                       </span>
                     </li>

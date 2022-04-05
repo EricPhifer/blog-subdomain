@@ -318,13 +318,20 @@ h1
 
 footer.footer
   padding: 2rem 0rem 0rem
+  section ul
+    margin: 0
+    list-style-type: none
+    text-align: left
+    line-height: 1
+  section a
+    color: #fff
+    font-size: 0.7rem
 
 //========================================
 //------------ Menu overrides-------------
 //========================================
 $menu-item-color: $white-ter
 $menu-item-hover-color: $black !important
-$menu-item-hover-background-color: $black
 $menu-item-active-color: $kaldi-red-invert
 $menu-item-active-background-color: 	$kaldi-red-invert
 $menu-list-border-left: 1px solid $kaldi-red-invert
@@ -348,14 +355,9 @@ $menu-label-color: $white-ter
   padding: 2em
 
 .social a
-  padding: .5em .5em .3em .5em
-  border-radius: 1em
+  display: inline
   background-color: transparent
   margin: .5em
-  width: 1em
-  height: 1em
-  vertical-align: middle
-  display: inline
 
 .featured-thumbnail
   width: 100% !important
