@@ -10,7 +10,7 @@ const Footer = class extends React.Component {
         <div className="content has-text-centered has-background-black has-text-white-ter">
           <div className="has-background-black has-text-white-ter">
             <div style={{ margin: '0 auto' }} className="columns justify-between">
-                <section className="menu column is-4">
+                <section className="menu column is-4 half-width ninety-width">
                   <ul style={{ margin: "0" }}>
                     <li>
                         &copy; Eric Phifer LLC {new Date().getFullYear()}
@@ -28,7 +28,7 @@ const Footer = class extends React.Component {
                     </li>
                   </ul>
                 </section>
-                <div className="columns is-mobile center">
+                <div className="columns is-mobile center half-width ninety-width">
                   <section className="column is-half">
                     <ul>
                       <li>
