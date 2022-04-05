@@ -12,7 +12,7 @@ const Footer = class extends React.Component {
             <div style={{ margin: '0 auto' }} className="columns">
               <div className="column is-4">
                 <section className="menu">
-                  <ul className="menu-list" style="margin: 0">
+                  <ul className="menu-list" style={{ margin: "0" }}>
                     <li id="copyright">
                         &copy; Eric Phifer LLC {new Date().getFullYear()}
                     </li>
