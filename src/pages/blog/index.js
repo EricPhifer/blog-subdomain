@@ -10,7 +10,7 @@ export default class BlogIndexPage extends React.Component {
          <div
           className="center margin-top-2"
           style={{
-            marginTop: '5em'
+            marginTop: '7em'
           }}
         >
           <h1

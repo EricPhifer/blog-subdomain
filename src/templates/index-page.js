@@ -26,7 +26,7 @@ export const IndexPageTemplate = ({
         <h1
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen" style={{
             lineHeight: '1',
-            padding: '0.25em',
+            padding: '1rem',
             marginTop: '1em'
           }}
         >
