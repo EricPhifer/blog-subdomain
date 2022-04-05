@@ -9,7 +9,7 @@ const Footer = class extends React.Component {
       <footer className="footer has-background-black has-text-white-ter">
         <div className="content has-text-centered has-background-black has-text-white-ter">
           <div className="has-background-black has-text-white-ter">
-            <div style={{ margin: '0 auto' }} className="columns">
+            <div style={{ margin: '0 auto' }} className="columns justify-between">
                 <section className="menu column is-4">
                   <ul style={{ margin: "0" }}>
                     <li>
@@ -28,8 +28,8 @@ const Footer = class extends React.Component {
                     </li>
                   </ul>
                 </section>
-                <div className="columns is-mobile">
-                  <section className="column is-half center">
+                <div className="columns is-mobile center">
+                  <section className="column is-half">
                     <ul>
                       <li className="right-align">
                         <Link to="/blog">
@@ -38,15 +38,15 @@ const Footer = class extends React.Component {
                       </li>
                     </ul>
                   </section>
-                  <section className="column is-half flex center">
-                    <a title="codepen" target="_blank" rel="noreferrer" href="https://codepen.io/Eric-Phifer">
+                  <section className="column is-half flex">
+                    <a className="social" title="codepen" target="_blank" rel="noreferrer" href="https://codepen.io/Eric-Phifer">
                       <img
                         src={codepen}
                         alt="CodePen"
                         style={{ width: '2em', height: '2em' }}
                         />
                     </a>
-                    <a title="github" target="_blank" rel="noreferrer" href="https://github.com/EricPhifer">
+                    <a className="social" title="github" target="_blank" rel="noreferrer" href="https://github.com/EricPhifer">
                       <img
                         className="fas fa-lg"
                         src={github}
