@@ -1,17 +1,17 @@
 ---
 templateKey: 'blog-post'
-title: 'Sensible headings are seldom used'
+title: 'A Happy Ending to a Long Journey'
 date: 2020-12-22T15:04:10.000Z
 featuredpost: true
 featuredimage: /img/image1.png
-description: Quis excepturi reiciendis beatae pariatur fugiat. Et delectus distinctio reprehenderit quos
+description: The temporary purpose of this content is to act as filler until real articles are written and released - this should occur shortly.
 tags:
   - how to
   - tech
   - programming
 ---
 
-# h1 : Introduction
+# Introduction
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque deleniti consequatur aliquid ab, accusamus praesentium vel eligendi ullam, at eaque animi facere harum consequuntur eius perferendis esse vero! Consequatur quia optio corporis id laudantium exercitationem, placeat ea delectus, non rem eveniet ullam! Magnam, natus numquam? Sit, amet. Modi, sit sed.
 
@@ -40,11 +40,11 @@ const someFunction  = () => {
 ```
 
 
-## h2 : Sub-heading
+h2 : Sub-heading
 
 Veniam, nobis. Quia saepe iure minus ab facere accusamus adipisci dolorem cupiditate non suscipit praesentium ipsam animi enim dolore ullam nihil omnis deleniti sequi eos sed ex, fugiat nam ipsum architecto. Consequatur quas similique inventore dolorem alias amet dignissimos vero distinctio nobis rem temporibus, qui assumenda et quam doloribus non. Quis excepturi reiciendis beatae pariatur fugiat. Et delectus distinctio reprehenderit quos
 
-### h3 : sub-sub-heading
+h3 : sub-sub-heading
 
 Est omnis mollitia officiis optio dolores quae veritatis rerum autem iure cum reiciendis, delectus qui labore, excepturi illo obcaecati quibusdam asperiores illum. Dolorum aliquam sit eum, illum ad, nostrum quaerat vitae corporis, laboriosam quasi iusto fugit! Natus explicabo fugiat fugit inventore voluptatum vel at ut temporibus. Qui dolorum voluptatem dolores, tenetur ex tempore eius doloribus fugiat quo esse officiis animi perspiciatis quod ea suscipit consequuntur earum nihil beatae distinctio? Laudantium, quod reprehenderit deleniti id dolore nostrum aliquid velit doloribus sint atque quidem quo beatae error officiis cumque unde, odit voluptate consequatur veritatis, maxime dolor libero magni autem
 

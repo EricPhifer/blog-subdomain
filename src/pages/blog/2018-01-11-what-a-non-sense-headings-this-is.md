@@ -1,17 +1,17 @@
 ---
 templateKey: 'blog-post'
-title: 'What a Non Sense headings this is'
+title: 'Above Average Headings'
 date: 2018-01-11T15:04:10.000Z
 featuredpost: true
 featuredimage: /img/image4.png
-description: Quis excepturi reiciendis beatae pariatur fugiat. Et delectus distinctio reprehenderit quos
+description: The temporary purpose of this content is to act as filler until real articles are written and released - this should occur shortly.
 tags:
   - lifestyle
   - luxury
   - how to
 ---
 
-# h1 : Heading
+# Heading
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque deleniti consequatur aliquid ab, accusamus praesentium vel eligendi ullam, at eaque animi facere harum consequuntur eius perferendis esse vero! Consequatur quia optio corporis id laudantium exercitationem, placeat ea delectus, non rem eveniet ullam! Magnam, natus numquam? Sit, amet. Modi, sit sed.
 
@@ -24,11 +24,11 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque deleniti consequ
 
 Quis excepturi reiciendis beatae pariatur fugiat. Et delectus distinctio reprehenderit quos. Totam voluptas praesentium enim aut maxime eaque repellat nostrum nesciunt necessitatibus, sint ipsum harum deleniti quaerat ullam ea ipsam minima. Eligendi maxime quis atque sed molestiae, esse eos tempora perferendis ex.
 
-## h2 : Sub-heading
+## Sub-heading
 
 Veniam, nobis. Quia saepe iure minus ab facere accusamus adipisci dolorem cupiditate non suscipit praesentium ipsam animi enim dolore ullam nihil omnis deleniti sequi eos sed ex, fugiat nam ipsum architecto. Consequatur quas similique inventore dolorem alias amet dignissimos vero distinctio nobis rem temporibus, qui assumenda et quam doloribus non. Quis excepturi reiciendis beatae pariatur fugiat. Et delectus distinctio reprehenderit quos
 
-### h3 : sub-sub-heading
+### sub-sub-heading
 
 Est omnis mollitia officiis optio dolores quae veritatis rerum autem iure cum reiciendis, delectus qui labore, excepturi illo obcaecati quibusdam asperiores illum. Dolorum aliquam sit eum, illum ad, nostrum quaerat vitae corporis, laboriosam quasi iusto fugit! Natus explicabo fugiat fugit inventore voluptatum vel at ut temporibus. Qui dolorum voluptatem dolores, tenetur ex tempore eius doloribus fugiat quo esse officiis animi perspiciatis quod ea suscipit consequuntur earum nihil beatae distinctio? Laudantium, quod reprehenderit deleniti id dolore nostrum aliquid velit doloribus sint atque quidem quo beatae error officiis cumque unde, odit voluptate consequatur veritatis, maxime dolor libero magni autem
 
