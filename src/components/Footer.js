@@ -10,8 +10,7 @@ const Footer = class extends React.Component {
         <div className="content has-text-centered has-background-black has-text-white-ter">
           <div className="has-background-black has-text-white-ter">
             <div style={{ margin: '0 auto' }} className="columns">
-              <div className="column is-4">
-                <section className="menu">
+                <section className="menu column is-4">
                   <ul className="menu-list" style={{ margin: "0" }}>
                     <li id="copyright">
                         &copy; Eric Phifer LLC {new Date().getFullYear()}
@@ -27,9 +26,7 @@ const Footer = class extends React.Component {
                     </li>
                   </ul>
                 </section>
-              </div>
-              <div className="column is-2">
-                <section>
+                <section className="column is-2">
                   <ul className="menu-list">
                     <li>
                       <Link className="navbar-item" to="/blog">
@@ -38,8 +35,7 @@ const Footer = class extends React.Component {
                     </li>
                   </ul>
                 </section>
-              </div>
-              <div className="column is-4 social">
+              <section className="column is-4 social">
                 <a title="codepen" target="_blank" rel="noreferrer" href="https://codepen.io/Eric-Phifer">
                   <img
                     src={codepen}
@@ -55,7 +51,7 @@ const Footer = class extends React.Component {
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
-              </div>
+              </section>
             </div>
           </div>
         </div>

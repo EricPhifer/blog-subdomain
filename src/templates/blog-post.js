@@ -36,7 +36,7 @@ export const BlogPostTemplate = ({
 
             <div className="blogContainer" >
             <h1
-                style={{ fontWeight:'700', color:'#fff', fontSize: '2.8rem' }}>
+                style={{ fontWeight:'700', color:'#fff', fontSize: '1.8rem' }}>
               {title}
             </h1>
             <p className="blogPostDescription">{description}</p>
