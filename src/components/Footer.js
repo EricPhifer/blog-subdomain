@@ -31,7 +31,7 @@ const Footer = class extends React.Component {
                 <div className="columns is-mobile center">
                   <section className="column is-half">
                     <ul>
-                      <li className="right-align">
+                      <li>
                         <Link to="/blog">
                           Latest Stories
                         </Link>

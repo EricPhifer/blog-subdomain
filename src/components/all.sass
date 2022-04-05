@@ -23,7 +23,6 @@ $black: #2e2e2e
   display: flex
   justify-content: center
   align-items: flex-start
-  height: 100%
   width: 100%
 .flex-col
   flex-direction: column
@@ -504,6 +503,10 @@ $menu-label-color: $white-ter
 //========================================
 //------------ responsiveness ------------
 //========================================
+@media (min-width: 501px)
+  .half-width
+    width: 50%
+    margin: auto
 @media (max-width: 800px)
   .blog-list-item .featured-thumbnail
     flex-basis: 50%
