@@ -29,7 +29,7 @@ const Footer = class extends React.Component {
                   </ul>
                 </section>
                 <div className="columns is-mobile">
-                  <section className="column is-half">
+                  <section className="column is-half center">
                     <ul>
                       <li>
                         <Link to="/blog">
@@ -38,7 +38,7 @@ const Footer = class extends React.Component {
                       </li>
                     </ul>
                   </section>
-                <section className="column is-half social flex flex-col-around">
+                <section className="column is-half flex">
                   <a title="codepen" target="_blank" rel="noreferrer" href="https://codepen.io/Eric-Phifer">
                     <img
                       src={codepen}

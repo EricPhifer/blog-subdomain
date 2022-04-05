@@ -317,7 +317,6 @@ h1
   padding: 0 1rem
 
 footer.footer
-  padding: 2rem 0rem 0rem
   section ul
     margin: 0
     list-style-type: none
@@ -411,7 +410,7 @@ $menu-label-color: $white-ter
   height: 2.3em
   position: fixed
   right: 1em
-  bottom: 1em
+  bottom: 7em
   cursor: pointer
 
 .scroll-to-top:hover::before
@@ -493,12 +492,16 @@ $menu-label-color: $white-ter
 //------------ responsiveness ------------
 //========================================
 @media (max-width: 800px)
+
+@media (max-width: 800px)
   .blog-list-item .featured-thumbnail
     flex-basis: 50%
   .grid-3
     grid-template-columns: repeat(2, minmax(auto, 1fr)) !important
   .blogContainer
-    font-size: 0.85em !important
+    font-size: 0.8em !important
+    width: 85vw !important
+    margin: 2em !important
 @media (max-width: 500px)
   .main-heading
     margin: 0 !important
@@ -518,9 +521,5 @@ $menu-label-color: $white-ter
     padding: 1rem !important
   .featured-thumbnail
     height: fit-content !important
-  .blogContainer
-    font-size: 0.8em !important
-    width: 85vw !important
-    margin: 2em !important
   .blogPostContentsContainer
     text-align: justify
