@@ -31,30 +31,30 @@ const Footer = class extends React.Component {
                 <div className="columns is-mobile">
                   <section className="column is-half center">
                     <ul>
-                      <li>
+                      <li className="right-align">
                         <Link to="/blog">
                           Latest Stories
                         </Link>
                       </li>
                     </ul>
                   </section>
-                <section className="column is-half flex">
-                  <a title="codepen" target="_blank" rel="noreferrer" href="https://codepen.io/Eric-Phifer">
-                    <img
-                      src={codepen}
-                      alt="CodePen"
-                      style={{ width: '1em', height: '1em' }}
-                      />
-                  </a>
-                  <a title="github" target="_blank" rel="noreferrer" href="https://github.com/EricPhifer">
-                    <img
-                      className="fas fa-lg"
-                      src={github}
-                      alt="GitHub"
-                      style={{ width: '1em', height: '1em' }}
-                      />
-                  </a>
-                </section>
+                  <section className="column is-half flex center">
+                    <a title="codepen" target="_blank" rel="noreferrer" href="https://codepen.io/Eric-Phifer">
+                      <img
+                        src={codepen}
+                        alt="CodePen"
+                        style={{ width: '2em', height: '2em' }}
+                        />
+                    </a>
+                    <a title="github" target="_blank" rel="noreferrer" href="https://github.com/EricPhifer">
+                      <img
+                        className="fas fa-lg"
+                        src={github}
+                        alt="GitHub"
+                        style={{ width: '2em', height: '2em' }}
+                        />
+                    </a>
+                  </section>
               </div>
             </div>
           </div>
