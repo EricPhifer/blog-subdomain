@@ -41,7 +41,7 @@ const Navbar = class extends React.Component {
               <a href="https://ericphifer.com/about" rel="noreferrer" >About</a>
             </li>
             <li className="navLink">
-              <Link to="/" rel="noreferrer">
+              <Link to="/blog" rel="noreferrer">
                 Blog
               </Link>
             </li>
