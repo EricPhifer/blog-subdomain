@@ -28,32 +28,34 @@ const Footer = class extends React.Component {
                     </li>
                   </ul>
                 </section>
-                <section className="column is-2">
-                  <ul>
-                    <li>
-                      <Link to="/blog">
-                        Latest Stories
-                      </Link>
-                    </li>
-                  </ul>
+                <div className="columns is-mobile">
+                  <section className="column is-2">
+                    <ul>
+                      <li>
+                        <Link to="/blog">
+                          Latest Stories
+                        </Link>
+                      </li>
+                    </ul>
+                  </section>
+                <section className="column is-4 social">
+                  <a title="codepen" target="_blank" rel="noreferrer" href="https://codepen.io/Eric-Phifer">
+                    <img
+                      src={codepen}
+                      alt="CodePen"
+                      style={{ width: '1em', height: '1em' }}
+                      />
+                  </a>
+                  <a title="github" target="_blank" rel="noreferrer" href="https://github.com/EricPhifer">
+                    <img
+                      className="fas fa-lg"
+                      src={github}
+                      alt="GitHub"
+                      style={{ width: '1em', height: '1em' }}
+                      />
+                  </a>
                 </section>
-              <section className="column is-4 social">
-                <a title="codepen" target="_blank" rel="noreferrer" href="https://codepen.io/Eric-Phifer">
-                  <img
-                    src={codepen}
-                    alt="CodePen"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-                <a title="github" target="_blank" rel="noreferrer" href="https://github.com/EricPhifer">
-                  <img
-                    className="fas fa-lg"
-                    src={github}
-                    alt="GitHub"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-              </section>
+              </div>
             </div>
           </div>
         </div>
